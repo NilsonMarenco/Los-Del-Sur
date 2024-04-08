@@ -24,13 +24,16 @@ body {
   flex-direction: row;
   justify-content: space-between;
   height: 350px;
-  padding: 30px 70px;
+  padding: 50px 80px;
+}
+
+.video {
 }
 
 h1 {
   font-family: "Grand Hotel", cursive;
   color: #ffffff;
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 100;
   margin: 15px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
@@ -38,20 +41,20 @@ h1 {
 }
 
 .video {
-  padding-right: 140px;
+  padding-right: 170px;
 }
 
 .subtitle {
   height: 150px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   margin: 0;
   padding: 0;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 30px;
   color: #ffffff;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -66,12 +69,13 @@ h3 {
   justify-content: center;
   color: #ffffff;
   margin-top: 20px;
+  font-size: 20px;
 
 
 }
 
 
 .footer a {
-  color: #ffffff; /* Cambiar el color del enlace */
-  font-size: 18px; /* Cambiar el tamaño de la fuente */
+  color: #ffffff; 
+  font-size: 20px; /* Cambiar el tamaño de la fuente */
 }
