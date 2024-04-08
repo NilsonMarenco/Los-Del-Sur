@@ -19,11 +19,12 @@ body {
   z-index: 1;
 }
 
-.header {
+.content{
   display: flex;
   flex-direction: row;
-  height: 120px;
-  padding: 30px;
+  justify-content: space-between;
+  height: 350px;
+  padding: 30px 70px;
 }
 
 h1 {
@@ -36,14 +37,17 @@ h1 {
   z-index: 3;
 }
 
+.video {
+  padding-right: 140px;
+}
+
 .subtitle {
   height: 150px;
   display: flex;
-  justify-content: end;
-  align-items: end;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
-  border: solid black;
 }
 
 h3 {
@@ -52,14 +56,22 @@ h3 {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  width: 500px;
+  width: 700;
   letter-spacing: 1px;
 }
 
-.video {
+.footer{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  height: auto;
+  color: #ffffff;
+  margin-top: 20px;
+
+
+}
+
+
+.footer a {
+  color: #ffffff; /* Cambiar el color del enlace */
+  font-size: 18px; /* Cambiar el tamaño de la fuente */
 }
