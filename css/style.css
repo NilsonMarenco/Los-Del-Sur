@@ -1,0 +1,65 @@
+body {
+  background-image: url("../images/Los\ Del\ Sur\ Portada.JPG");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.fondo-opaco {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  padding: 30px;
+}
+
+h1 {
+  font-family: "Grand Hotel", cursive;
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 100;
+  margin: 15px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+  z-index: 3;
+}
+
+.subtitle {
+  height: 150px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 0;
+  padding: 0;
+  border: solid black;
+}
+
+h3 {
+  font-size: 28px;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  width: 500px;
+  letter-spacing: 1px;
+}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
