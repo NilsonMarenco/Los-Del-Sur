@@ -71,5 +71,41 @@ h3 {
 
 .footer a {
   color: #ffffff; 
-  font-size: 18px; /* Cambiar el tamaño de la fuente */
+  font-size: 18px; 
+}
+
+/*Para Moviles*/
+
+
+@media (max-width: 768px) {
+  .content {
+    padding: 20px; /* Reducir el relleno */
+  }
+
+  h1 {
+    font-size: 40px; /* Reducir el tamaño del título */
+  }
+
+  .subtitle {
+    padding: 10px; /* Reducir el relleno */
+  }
+
+  h3 {
+    font-size: 20px; /* Reducir el tamaño del texto de subtítulo */
+  }
+
+  .footer {
+    padding: 10px; /* Reducir el relleno */
+    font-size: 14px; /* Reducir el tamaño del texto del pie de página */
+  }
+
+  .video-container {
+    width: 40%; /* Ajustar el ancho del contenedor de video */
+    padding-bottom: 15%; /* Proporción 16:9 */
+  }
+
+  .video-container iframe {
+    width: 100%; /* Ajustar el ancho del video */
+    height: 100%; /* Ajustar la altura del video */
+  }
 }
