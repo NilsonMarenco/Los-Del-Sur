@@ -74,15 +74,17 @@ h3 {
 @media (max-width: 720px) {
   .content {
     padding: 5%;
+    height: 90vw;
     /* Reducir el relleno */
   }
 
   h1 {
-    font-size: 12vw;
+    font-size: 11vw;
     /* Reducir el tamaño del título */
   }
 
   .subtitle {
+    height: auto;
     text-align: center;
     width: 100%;
   }
@@ -98,7 +100,7 @@ h3 {
 
   .video-container {
     width: 40%;
-    padding-bottom: 15%;
+    padding-bottom: 22%;
   }
 
   .video-container iframe {
