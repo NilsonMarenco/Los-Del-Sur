@@ -98,11 +98,13 @@ h3 {
     padding: 10px; /* Reducir el relleno */
     font-size: 14px; /* Reducir el tamaño del texto del pie de página */
   }
+  
 
   .video-container {
     width: 40%; /* Ajustar el ancho del contenedor de video */
     padding-bottom: 15%; /* Proporción 16:9 */
   }
+
 
   .video-container iframe {
     width: 100%; /* Ajustar el ancho del video */
