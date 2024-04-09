@@ -78,18 +78,17 @@ h3 {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 45px;
     /* Reducir el tamaño del título */
   }
 
   .subtitle {
     height: auto;
     text-align: center;
-    padding: 7px;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .footer {
