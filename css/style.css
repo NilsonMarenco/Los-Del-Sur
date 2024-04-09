@@ -82,12 +82,10 @@ h3 {
   .content {
     padding: 6% 0% 2% 2%;
     height: 48vh;
-    /* Reducir el relleno */
   }
 
   h1 {
     font-size: 11vw;
-    /* Reducir el tamaño del título */
   }
 
   .subtitle {
@@ -107,13 +105,13 @@ h3 {
 
   .video-container {
     margin-top: 1%;
-    width: 160px; 
-    height: 250px; 
-    
+    width: 160px;
+    height: 250px;
+
   }
 
   .video-container iframe {
-    width: 90%; 
-    height: 90%; 
+    width: 90%;
+    height: 90%;
   }
 }
