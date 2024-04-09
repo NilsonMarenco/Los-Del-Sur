@@ -75,7 +75,7 @@ h3 {
 
 /*Para Moviles*/
 /* Estilos para dispositivos móviles */
-@media (max-width: 850px) {
+@media (max-width: 880px) {
   .content {
     padding: 20px; /* Reducir el relleno */
   }
@@ -85,7 +85,6 @@ h3 {
   }
 
   .subtitle {
-    padding: 10px; /* Reducir el relleno */
   }
 
   h3 {
@@ -94,7 +93,7 @@ h3 {
 
   .footer {
     font-size: 14px; /* Reducir el tamaño de la fuente */
-    padding: 20px; /* Aumentar el relleno */
+    padding-bottom: 30px; /* Aumentar el relleno */
   }
 
   .video-container {
