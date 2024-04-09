@@ -1,7 +1,7 @@
 body {
-  background-image: url("../images/Los\ Del\ Sur\ Portada.JPG");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../images/Los Del Sur Portada.JPG");
+  background-size:100%;
+  background-position: center; /* Ajustar la posición del fondo */
   width: 100%;
   height: 100vh;
   position: relative;
@@ -60,23 +60,22 @@ h3 {
   letter-spacing: 1px;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   color: #ffffff;
   font-size: 18px;
+  padding: 10px; /* Aumentar el relleno */
 }
 
-
 .footer a {
-  color: #ffffff; 
-  font-size: 18px; 
+  color: #ffffff;
+  font-size: 18px;
 }
 
 /*Para Moviles*/
-
-
+/* Estilos para dispositivos móviles */
 @media (max-width: 850px) {
   .content {
     padding: 20px; /* Reducir el relleno */
@@ -95,19 +94,18 @@ h3 {
   }
 
   .footer {
-    padding: 10px; /* Reducir el relleno */
-    font-size: 14px; /* Reducir el tamaño del texto del pie de página */
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+    padding: 20px; /* Aumentar el relleno */
   }
-  
 
   .video-container {
-    width: 40%; /* Ajustar el ancho del contenedor de video */
+    width: 50%; /* Ajustar el ancho del contenedor de video */
     padding-bottom: 15%; /* Proporción 16:9 */
   }
-
 
   .video-container iframe {
     width: 100%; /* Ajustar el ancho del video */
     height: 100%; /* Ajustar la altura del video */
   }
 }
+
