@@ -77,7 +77,7 @@ h3 {
 /*Para Moviles*/
 
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .content {
     padding: 20px; /* Reducir el relleno */
   }
