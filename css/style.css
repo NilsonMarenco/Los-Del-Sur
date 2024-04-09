@@ -81,7 +81,7 @@ h3 {
 @media (max-width: 720px) {
   .content {
     padding: 2%;
-    height: 53vh;
+    height: 50vh;
     /* Reducir el relleno */
   }
 
@@ -106,13 +106,12 @@ h3 {
   }
 
   .video-container {
-    width: 150px; /* Ancho fijo del iframe en píxeles */
-    height: 280px; /* Altura fija del iframe en píxeles */
-    padding-bottom: 0; /* No necesitas establecer un relleno inferior si el tamaño del iframe es fijo */
+    width: 150px; 
+    height: 290px; 
   }
 
   .video-container iframe {
-    width: 100%; /* Ajusta el ancho del iframe al 100% del contenedor */
-    height: 100%; /* Ajusta la altura del iframe al 100% del contenedor */
+    width: 90%; 
+    height: 90%; 
   }
 }
