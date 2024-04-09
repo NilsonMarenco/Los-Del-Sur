@@ -73,7 +73,7 @@ h3 {
 /* Estilos para dispositivos móviles */
 @media (max-width: 720px) {
   .content {
-    padding: 10px;
+    padding: 5%;
     /* Reducir el relleno */
   }
 
@@ -86,7 +86,6 @@ h3 {
     height: auto;
     text-align: center;
     width: 100%;
-    margin-top: 4vw;
   }
 
   h3 {
