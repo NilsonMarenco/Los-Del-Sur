@@ -32,17 +32,14 @@ body {
 h1 {
   font-family: "Grand Hotel", cursive;
   color: #ffffff;
-  font-size: 6vw;
+  font-size: 60px;
   font-weight: 100;
   margin: 15px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
   z-index: 3;
 }
 
-.video-container iframe {
-  width: 50%;
-  height: 80%;
-}
+
 
 .subtitle {
   height: 150px;
@@ -54,7 +51,7 @@ h1 {
 }
 
 h3 {
-  font-size: 2.2vw;
+  font-size: 25px;
   color: #ffffff;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -68,11 +65,11 @@ h3 {
   flex-direction: row;
   justify-content: center;
   color: #ffffff;
-  font-size: 1.5vw;
+  font-size: 18px;
 }
 
 
 .footer a {
   color: #ffffff; 
-  font-size: 1.5vw; /* Cambiar el tamaño de la fuente */
+  font-size: 18px; /* Cambiar el tamaño de la fuente */
 }
