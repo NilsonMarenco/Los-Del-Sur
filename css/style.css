@@ -4,7 +4,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: relative;
 }
 
@@ -81,7 +81,7 @@ h3 {
 /* Estilos para dispositivos móviles */
 @media (max-width: 720px) {
   .content {
-    padding: 6% 0 2% 2%; /*manecillas de reloj: arriba, derecha, abajo, izquierda*/
+    padding: 6% 3% 2% 2%; /*manecillas de reloj: arriba, derecha, abajo, izquierda*/
     height: 48vh;
   }
 
@@ -110,9 +110,9 @@ h3 {
   }
 
   .video-container {
-    margin-top: 0;
-    width: 160px;
-    height: 250px;
+    margin-top: 3%;
+    width: 120px;
+    height: 205px;
 
   }
 
